@@ -18,7 +18,7 @@ This program takes in a large number of input images that all contain data perta
 4. Next, the program searches for three key data entries:
    - A name by taking the first two capitalized words
    - A phone number by searching for paired parenthesis and/or 4 digits in a row
-   - An email by searching '@'. If a phone number or email is not found, that will be shown in the output file.
+   - An email by searching `@`. If a phone number or email is not found, that will be shown in the output file.
 5. Key data entries are then written to an output csv file where each row represents one person.
 
 The other file takes the output csv file and copies it to an xslx file to accomodate preferences.
