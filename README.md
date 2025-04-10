@@ -10,7 +10,7 @@ The script uses the `pandas` library to handle CSV and Excel file operations and
 - pandas library
 - openpyxl library (install with `pip install openpyxl`)
 
-HOW IT WORKS: 
+### How It Works: 
 This program takes in a large number of input images that all contain data pertaining to people, and then outputs certain data that is needed to a csv and xslx file. 
 1. Each image in the folder is accessed and then cropped to remove unnecessary text.
 2. The cropped image is then OCR scanned to extract the raw text.
