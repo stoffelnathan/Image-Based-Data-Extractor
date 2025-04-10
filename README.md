@@ -1,7 +1,7 @@
 # Image-Based-Data-Extractor
 This Image-Based Data Extractor takes in specific input files (`.png`, `.jpg`, `.jpeg`, `.tiff`, `.bmp`, and `.gif`) and extracts key data entries like name, phone number, and email.
 
-⚠️ NOTE: This was a personal project that is only meant to work with input images that match a certain format.
+⚠️ NOTE: This was a personal project that is only meant to work with input images that match a certain format. To actually make the program work multiple adjustments must be made.
 
 The script uses the `pandas` library to handle CSV and Excel file operations and `openpyxl` as the engine for writing `.xlsx` files.
 
