@@ -3,6 +3,13 @@ This Image-Based Data Extractor takes in specific input files (`.png`, `.jpg`, `
 
 ⚠️ NOTE: This was a personal project that is only meant to work with input images that match a certain format.
 
+The script uses the `pandas` library to handle CSV and Excel file operations and `openpyxl` as the engine for writing `.xlsx` files.
+
+### Requirements:
+- Python 3.x
+- pandas library
+- openpyxl library (install with `pip install openpyxl`)
+
 HOW IT WORKS: 
 This program takes in a large number of input images that all contain data pertaining to people, and then outputs certain data that is needed to a csv and xslx file. 
 1. Each image in the folder is accessed and then cropped to remove unnecessary text.
